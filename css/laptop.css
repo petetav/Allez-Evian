@@ -1,0 +1,297 @@
+/* Eric Meyer's Reset Reloaded */
+/* http://meyerweb.com/eric/thoughts/2007/05/01/reset-reloaded/ */
+
+html, body, div, header, section, article, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+body {
+	line-height: 1; 
+	background-color: #95adc9;
+	background-image: url("../used-photos/background-water.JPG"); 
+	
+	background-size: cover;
+	color: b;
+	
+}
+
+h1 {font-size:30pt;
+	color:gold;
+}
+
+h2 {font-size:1.5rem;
+	color: gold;
+	text-align: left;
+}
+
+p	{color: gold;
+	line-height: 1.5;
+}
+
+blockquote, q {
+	quotes: none;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+ 
+ main{
+	width: 100%;
+	height: auto;
+	
+	
+	
+}
+ 
+ header{
+	position: fixed;
+	width: 100%;
+	height: auto;	
+}
+
+.google_language_widget{
+	position: absolute;
+	background-color: aqua;
+	right:0px;
+	z-index: 100;
+}
+ 
+ nav{
+	 position: fixed;
+	 z-index: 10;
+	 margin-left: -6rem;
+	 width: 7rem;
+	 height: auto;
+	 padding: .4rem;
+	 padding-left: 1rem;
+	 line-height: 2;
+	 background-color: #770f0f;
+	 color: gold;
+	 opacity: .8;
+	 border-radius: 0px 7px 10px 0px;
+	 
+ }
+ 
+ nav:hover{
+	 margin-left: 0;
+	 transition: all .8s ;
+ }
+ 
+ 	nav a:link{color:gold;}
+ 	nav a:visited{color:gold;}
+ 	nav a:hover{color:white;}
+    nav a:active{color:white;}
+
+ 
+ 
+ section{
+ 	position: relative;
+ 	margin: auto;
+ 	width: 85%;
+	max-width: 950px;
+	height: auto;
+	background-color: #d0cfd2;
+	padding: 1.5rem;
+	border-radius: 10px 10px;
+	 
+}
+
+
+
+
+section{
+	top:15rem;
+}
+
+@media only screen and (min-width: 800px){
+	section{
+		top:27rem;
+	}
+}
+
+@media only screen and (min-width: 1200px){
+	section{
+		top:40rem;
+	}
+}
+
+
+/*section:after{
+	content: "\A";
+}*/
+
+/*#{
+	width: 200px;
+	height: 200px;
+	background-color: aqua;
+}*/
+
+#home{
+	opacity: .8;
+}
+	
+
+#location{
+	position: relative;
+	width: 95%;
+	height: auto;
+	margin: auto;
+	background-color: #080457;
+	padding: 15px;
+	overflow: hidden;
+	}
+
+	
+#contact{
+	background-color: #d0cfd2;
+	height: 60px;
+	margin-bottom: 40px;
+	text-align: center ;
+	
+}
+
+ 
+ figcaption{
+	 text-align: right;
+ }
+
+	 
+ 
+footer{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	font-family: serif;
+	font-size: small;
+	text-align: center;
+	padding: .5rem;
+	color: black;
+	background-color: gray;
+}
+
+
+/*flexbox classes */
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+ 
+}
+
+
+.flex-item {
+  background: #080457;
+  padding: 5px;
+  padding-bottom: 0px;
+  width: 300px;
+  height: 250px;
+  margin-top: 10px;
+  /*line-height: 150px;*/
+  color: white;
+  font-size: .8em;
+  text-align: center;
+  
+}
+
+.flex-item a{
+	color:red;
+}
+
+/* set up the divs */
+
+
+
+
+
+/* Set up the classes */
+
+.caption{
+	color:aqua;
+	font-size: xx-large;
+	position: relative;
+	bottom: 0;
+}
+
+.intro{
+	position: relative;
+	width:96%;
+	margin: auto;
+	height: auto;
+	background-color: #080458;
+	color: gold;
+	line-height: 1.2;
+	font-weight: 200;
+	border-radius: 8px 8px 0px 0px;
+	padding: 1rem;
+	padding-bottom: 2rem;
+	
+		
+}
+	
+ul.nav {
+	list-style-type: none;
+}
+
+.features{
+	margin-left: 2rem;
+}	
+
+.exterior, .interior, .contact, .details {
+	position: relative;
+	width:96%;
+	margin: auto;
+	height: auto;
+	background-color: #080458;
+	color: gold;
+	line-height: 1.2;
+	font-weight: 200;
+	border-radius: 8px 8px 0px 0px;
+	padding: 1rem;
+	padding-bottom: 2rem;
+	
+	
+		
+}
+
+.details {
+  -webkit-columns: 2 200px;
+     -moz-columns: 2 200px;
+          columns: 2 200px;
+
+    
+}
+
+.details a {
+	color: gold;
+	margin-left: 5em;
+	
+}
+
+dl{
+	list-style-type: none;
+}
+
